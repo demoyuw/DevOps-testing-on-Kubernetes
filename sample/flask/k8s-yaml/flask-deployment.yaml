@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: flask
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: flask
@@ -13,7 +14,6 @@ spec:
       labels:
         app: flask
     spec:
-      replicas: 1
       containers:
       - name: flask
         image: demoyuw/devops-flask
