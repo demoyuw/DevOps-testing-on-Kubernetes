@@ -2,4 +2,7 @@
 
 ----
 ## Framework
-![framework of the platform](docs/devops.png)
+![framework of the platform](docs/devops-framework.png)
+
+## Software components
+![framework of the platform](docs/devops-components.png)
