@@ -1,0 +1,13 @@
+kind: Service
+metadata:
+  name: reactjs-service
+  labels: 
+    app: reactjs
+spec:
+  type: NodePort
+  selector:
+    app: reactjs
+  ports:
+    - name: ui-port
+      protocol: TCP
+      port: 80
